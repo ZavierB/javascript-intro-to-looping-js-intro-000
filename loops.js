@@ -13,11 +13,9 @@ function forLoop(array) {
   return array
 }
 
-let number = n.random
 
-function whileLoop(number){
-  while (number > 0){
-    console.log(number);
-    number -= 1
+function whileLoop(n) {
+  while ( n > 0) {
+    console.log(n);
   }
 }
