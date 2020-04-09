@@ -13,7 +13,7 @@ function forLoop(array) {
   return array
 }
 
-let number = 0
+let number = num
 
 function whileLoop(number){
   while ( number > 0){
