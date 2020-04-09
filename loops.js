@@ -7,7 +7,7 @@ function forLoop(array) {
       array.unshift('I am 1 strange loop.')
     }
     else {
-      return array += `I am ${i} strange loops.`
+      array.unshift(`I am ${i} strange loops.`)
     }
   }
   return array
