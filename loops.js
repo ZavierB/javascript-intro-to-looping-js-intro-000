@@ -13,12 +13,12 @@ function forLoop(array) {
   return array
 }
 
-let n = n
+
 
 function whileLoop(n){
   while (n > 0){
     console.log(n);
-    n -+ 1
+    n -= 1
   }
   console.log("done");
 }
